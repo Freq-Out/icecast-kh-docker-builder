@@ -22,7 +22,9 @@ Basic usage:
 
 `docker build -t icecast-kh-builder .`
 
-## versions images
+On the Docker Hub, builder images are found as `freqout/icecast-kh-builder:latest`.
+
+## Icecast versions images
 
 To automatically build version `2.4.0-kh5` as a Ubuntu package (don't forget to mount a volume for `/build`):
 
